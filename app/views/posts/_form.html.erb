@@ -4,6 +4,7 @@
 
   <label>Post Description</label><br>
   <%= f.text_area :description %><br>
-
+  <%= author_id_field(@post) %>
+  <br>
   <%= f.submit %>
 <% end %>
